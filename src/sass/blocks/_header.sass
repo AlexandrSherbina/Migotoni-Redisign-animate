@@ -1,0 +1,83 @@
+.header 
+    position: relative  
+    margin-bottom: 307px
+
+
+    &__block      
+        +flex
+        margin: 0 10px
+       
+    &__logo  
+        margin-left: 70px
+        margin-top: 50px
+        background: aliceblue
+        box-shadow: 0px 0px 18px antiquewhite
+        img              
+            max-width: 333px            
+            object-fit: cover
+
+    &__top    
+        padding:  87px 182px 0px 92px      
+ 
+    &__title           
+        font-size: 36px
+        line-height: 142%
+        letter-spacing: 0.09em
+        text-transform: uppercase      
+        background: -webkit- linear-gradient(180deg,#1be8aa 0,#2196f3ad 100%)
+        background: linear-gradient(180deg,#1be8aa 0,#2196f3ad 100%)
+        // background: -webkit- linear-gradient(to left, #1be8aa 0,#2196f3ad 100%)
+        // background: linear-gradient(to left, #1be8aa 0,#2196f3ad 100%)
+        -webkit-background-clip: text
+        -webkit-text-fill-color: transparent
+        //background-size: 3200px 200px
+        color: transparent    
+        // -webkit-animation: multicolor 
+        // -webkit-animation-delay: 0
+        // -webkit-animation-duration: 7s
+        // -webkit-animation-timing-function: linear
+        // -webkit-animation-iteration-count: 3
+        // -webkit-animation-fill-mode: forwards
+        // transition: font-size 500ms ease-in-out
+
+        
+
+    &__description
+        font-size: 22.5px
+        line-height: 32px
+        color: #1b1a1a
+        margin-top: 0
+
+    &__bottom      
+        display: flex
+        flex-wrap: nowrap        
+        justify-content: space-between
+        gap: 10px
+        max-width: 880px   
+        color: #fff
+  
+    &__list
+        padding:0px 10px 0 10px 
+        
+    &__list-title
+        display: block
+        background: #F6D365
+        font-size: 24px
+        line-height: 32px
+        color: black
+        margin-bottom: 22px
+
+    &__item
+        font-size: 18px
+        line-height: 32px
+        margin-left: 40px
+       
+
+@keyframes multicolor 
+    0% 
+        background-position: 0 3200px
+ 
+    100% 
+        background-position: 3200px 0
+       
+ 

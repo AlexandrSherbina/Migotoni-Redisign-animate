@@ -1,0 +1,80 @@
+.registry 
+   
+    display: flex
+    align-items: center
+    flex-direction: column  
+    justify-content: center
+    height: 1348px
+    background-image: url(../img/footer.png)
+    background-repeat: no-repeat 
+
+    &__title
+        max-width: 493px       
+        font-size: 30px
+        line-height: 41px
+        text-align: center
+        margin-top: 100px
+        margin-left: 0
+    &__wrap
+        +flex
+        gap: 41px
+        flex-wrap: nowrap
+        margin-top: 100px
+    &__block
+        +flex
+        flex-direction: column       
+        max-width: 475px
+        height: 422px
+        box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.25)
+        border-radius: 8px  
+        margin-left: 20px
+        margin-right: 20px
+    &__block.pink
+        background: #df0f00b0
+    &__block.blue
+        //background: linear-gradient(180deg, #667EEA 99.99%, rgba(118, 75, 162, 0) 100%)
+        background: linear-gradient(180deg,#021fa29e 99.99%,rgba(118,75,162,0) 100%)
+        filter: drop-shadow(0px 10px 30px rgba(0, 0, 0, 0.25))
+
+       
+    &__logo
+        max-width: 78.37px
+        height: 66.77px
+        background: aliceblue
+        box-shadow: 0px 0px 11px antiquewhite
+    &__subtitle
+        font-size: 20px
+        line-height: 32px       
+        text-align: center
+        text-transform: uppercase
+        opacity: 0.6
+    &__btn   
+        display: flex
+        flex-direction: row
+        align-items: center
+        justify-content: space-evenly
+        width: 466px  
+        font-family: Roboto
+        font-style: normal
+        font-weight: bold
+        font-size: 28px
+        line-height: 32px     
+        margin: 64px 10px
+        padding: 16px 32px 
+        text-transform: uppercase
+        //background: linear-gradient(180deg, #30CFD0 0%, #6849D4 100%)
+        background: linear-gradient(180deg,#087677 0,#3d0edd 100%)
+        color: aliceblue
+        box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.25)
+        border-radius: 8px
+
+    &__btn:active
+        transform: translateY(1px)
+    &__btn a
+         color: aliceblue  
+   
+       
+    .btn__arrow
+        display: inline
+        margin-left: 32px
+

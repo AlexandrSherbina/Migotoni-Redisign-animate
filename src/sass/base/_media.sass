@@ -1,0 +1,512 @@
+@media only screen and (max-width : 1600px)
+    .header
+        margin-bottom: calc( 20px + (307 - 20) * ((100vw - 320px) / (1600 - 320) ))
+        &__logo
+            margin-left: calc( 20px + (70 - 20) * ((100vw - 320px) / (1600 - 320) ))
+        &__top     
+            padding-right:  calc( 20px + (182 - 20) * ((100vw - 320px) / (1600 - 320) ))
+            padding-top: calc( 20px + (87 - 20) * ((100vw - 320px) / (1600 - 320) ))
+        &__title
+            font-size: calc( 16px + (36 - 18) * ((100vw - 320px) / (1600 - 320) ))
+        &__background
+                width: calc( 300px + (767 - 300) * ((100vw - 320px) / (1600 - 320) ))
+        &__background img:nth-child(1)
+                width: calc( 100px + (555 - 100) * ((100vw - 320px) / (1600 - 320) ))
+                left: calc( 100px + (30 - 100) * ((100vw - 320px) / (1600 - 320) ))
+        &__background img:nth-child(2)
+                width: calc( 150px + (665 - 150) * ((100vw - 320px) / (1600 - 320) ))
+    .app
+        &__wrap
+            grid-template-columns: repeat(auto-fill,280px)
+   
+    .overview__app
+        &-title            
+            padding-top: 60px
+   
+
+@media only screen and (max-width : 1366px)
+    
+          
+    .benefits        
+        &__wrap
+            flex-wrap: nowrap
+            margin-left: 20px
+        &__img
+            max-width: 500px
+    .offer
+        &__sub-wrap
+            grid-column-gap: 200px
+
+@media only screen and (max-width : 1280px)
+    .title__uppercase 
+        font-size: calc( 16px + (38 - 24) * ((100vw - 320px) / (1280 - 320) ))
+    .fz-25 
+        font-size: calc( 14px + (25 - 20) * ((100vw - 320px) / (1280 - 320) ))
+    
+    .header__top      
+        padding-right:  calc( 20px + (182 - 120) * ((100vw - 320px) / (1280 - 320) ))
+    .header__background
+        //top: calc( 77px + (77 + 20) * ((100vw - 320px) / (1280 - 320) ))
+   
+    .image__wrap 
+       padding: 0 calc( 10px + (270 - 135) * ((100vw - 320px) / (1280 - 320) ))
+    .app
+        &__wrap
+            grid-template-columns: repeat(auto-fill,235px)
+    .overview__app        
+        &-title            
+            padding-top: clamp(10px, 10vh, 32px )
+
+    .investment
+        &__table 
+            padding-left: calc( 20px + (60 - 20) * ((100vw - 320px) / (1280 - 320) ))
+            padding-right: calc( 20px + (60 - 20) * ((100vw - 320px) / (1280 - 320) ))
+        &__img
+            max-width: 550px      
+
+        &__diagramm
+            max-width: 310px
+            padding-top: 175px
+    .offer
+        &__wrap
+            margin-left: 60px
+            padding-left: 40px
+        &__sub-wrap
+            grid-column-gap: 100px
+            justify-content: space-between
+    .chart-wrap
+        padding: 0px calc(20px + (70 - 70) * ((100vw - 320px)/ (1280 - 320))) 0px calc(20px + (120 - 120) * ((100vw - 320px)/ (1280 - 320)))
+
+    .modal 
+        &__subtitle 
+            font-size: 30px
+            margin-bottom: 30px
+   
+    
+    .btn_submit
+        font-size: calc( 16px + (25 - 16) * ((100vw - 320px) / (1280 - 320) ))
+        margin: 20px 0 20px 0
+   
+
+@media only screen and (max-width : 1080px)           
+    .header
+        
+        &__top
+            padding-left:  calc( 10px + (70 + 10) * ((100vw - 320px) / (1080 - 320) ))
+            padding-right: calc(10px + (182 - 148) * ((100vw - 320px)/ (1280 - 320)))
+        &__logo        
+            img
+                max-width: calc( 50px + (400 - 200) * ((100vw - 320px) / (1080 - 320) ))  
+
+    .app
+        &__wrap
+            grid-template-columns: repeat(auto-fill,220px)
+            margin-left: clamp(40px,12vw,394px)
+    .title
+        margin-left: clamp(40px,12vw,380px)
+    .overview__app      
+        &-title            
+            padding-top: 0
+        &__title h3
+            font-size: 27px
+
+
+    .investment
+        &__item
+            font-size: 20px
+        &__diagramm
+            padding-top: 150px
+  
+    .offer
+        &__wrap
+            margin-left: 40px
+            padding-left: 40px
+        &__sub-wrap
+            grid-column-gap: 50px
+        &__item
+            font-size: 35px
+            line-height: 48px
+        &__title-sub         
+            font-size: 72px
+
+    .chart-canvas
+        display: none
+    .chart-img
+        display: block
+
+    .registry         
+        &__title
+            margin-left: 0
+            margin-top: 0px
+        &__wrap
+            flex-wrap: wrap   
+        &__block
+            margin-bottom: 10px
+    .modal__subtitle
+       font-size: calc(16px + (34 - 16) * ((100vw - 320px)/ (1080 - 320)))
+    .feed-form input
+        font-size: calc(14px + (26 - 14) * ((100vw - 320px)/ (1080 - 320)))
+    .feed-form input.data-type
+        margin-bottom:  calc(10px + (40 - 20) * ((100vw - 320px)/ (1080 - 320)))
+    .feed-form__checkbox 
+        font-size: calc(14px + (24 - 14) * ((100vw - 320px)/ (1080 - 320)))
+        
+@media (max-width: 991px)
+    .header
+        +flex
+        flex-direction: column      
+   
+        &__bottom
+            justify-content: flex-start
+        &__list-title
+            font-size: 20px
+        &__item
+            font-size: 15px
+    .app
+        &__wrap
+            grid-template-columns: repeat(auto-fill,200px)
+
+    .overview__app        
+        &-title h3
+            margin-top: 0
+            font-size: 27px
+        &-title .line
+            max-width: 300px
+    .investment
+        &__table
+            padding: 20px      
+
+        &__diagramm
+            width: 210px
+            padding-left: 5px
+     
+    .benefits
+        &__img
+            max-width: 380px
+            
+        &__list
+            font-size: 21.5px
+    .text-img img
+        //max-width: calc(100px + (255 - 100) * ((100vw - 320px)/ (991 - 320)))
+        
+    .offer
+        &__wrap
+            margin-left: 20px
+            margin-right: 20px
+            padding-left: 20px
+        &__sub-wrap
+            grid-column-gap: 20px
+        &__item
+            font-size: 30px
+            line-height: 40px
+        
+@media only screen and (max-width : 800px) 
+    .header
+               
+        &__description
+            font-size: 16px
+        &__list-title
+            font-size: 15px        
+    .title__description-bottom
+        font-size: 24px
+        
+    .app
+        &__wrap
+            grid-template-columns: repeat(auto-fill,188px)
+
+    .benefits
+        &__img
+            max-width: 350px
+            margin: 20px auto
+           
+        &__list
+            font-size: 20px
+    .offer
+        &__wrap
+            margin-left: 10px
+            margin-right: 10px
+            padding-left: 10px        
+        &__item
+            font-size: 28px
+            line-height: 38px
+    .investment
+        &__img
+            padding-right: 120px
+        &__item
+            font-size: 16px
+    .title__description-bottom
+        margin: 0
+@media ( max-width: 767px )
+    .header 
+        &__title 
+            font-size: calc(16px + (36 - 25) * ((100vw - 320px)/ (1600 - 320)))
+
+    .overview__app
+        margin-top: 50px  
+       
+        &-title h3
+           padding-top: 0            
+
+    
+    .investment
+        &__table-left, &__table-right
+            z-index: 1
+        &__diagramm
+            position: absolute
+            top: -25%
+            left: 25%
+            opacity: 0.5
+   
+    .benefits
+        &__wrap 
+           flex-direction: column
+           align-items: flex-end
+        &__img
+            max-width: 300px
+            height: 250px
+        &__list
+            font-size: 19px
+    .image 
+        margin-top: 50px
+    .offer
+        &__item
+            font-size: 22px
+        &__discount::after
+            top: -5px
+            left: 29px
+            width: 50px
+            height: 50px
+        &__title-sub
+            text-align: left
+            margin: 0    
+            font-size: 72px
+    .chart
+        margin: calc(20px + (150 - 70) * ((100vw - 320px)/ (767 - 320))) 0px
+
+    
+@media only screen and (max-width : 600px)
+    .title
+        font-size: calc(20px + (36 - 20) * ((100vw - 320px)/ (600 - 320)))
+    .header
+      &__title 
+        font-size: calc(14px + (36 - 34) * ((100vw - 320px)/ (600 - 320)))
+ 
+    .title__description-bottom
+        font-size: calc(14px + (24 - 20) * ((100vw - 320px)/ (600 - 320)))
+        text-shadow: black 0 0 1px  
+    .title__uppercase       
+        text-align: center
+ 
+       
+
+    .overview__app      
+        &-title.hide
+            display: none
+        &-title.show
+            display: block
+
+
+    .investment
+        &__img
+            padding-right: 200px
+        &__wrap
+            flex-wrap: wrap    
+            justify-content: space-evenly 
+            row-gap: 20px
+        &__diagramm
+            position: unset
+            padding: 0
+    
+    .offer
+       
+        &__item
+            font-size: 17px   
+        &__discount::after
+            top: -10px
+            left: 23px           
+        &__title-sub
+            text-align: left
+            font-size: 43px    
+  
+    .feed-form__checkbox input 
+        width: calc(20px + (26 - 20) * ((100vw - 320px)/ (600 - 320)))
+    .title__description-bottom
+        line-height: 151%
+    .red
+        font-size: calc(25px + (58 - 20) * ((100vw - 320px)/ (600 - 320)))
+    
+
+@media only screen and (max-width : 533px)
+    .title
+        text-align: center      
+        margin-left: 0
+    .header
+        &__block
+            flex-wrap: wrap
+            justify-content: flex-start
+        &__top
+            padding-top: calc(10px + (87 - 20) * ((100vw - 320px)/ (1600 - 320)))
+        &__logo
+            margin-top: 20px
+        &__background
+            top: calc( 83px + (77 + 20) * ((100vw - 320px) / (1280 - 320) ))
+        
+        &__description
+            font-size: 14px
+          
+
+        &__bottom           
+            gap: 0
+
+    .overview__app        
+        &_title-sub
+            text-align: left 
+    .app
+        &__wrap           
+            grid-template-columns: repeat(auto-fill,164px)
+            gap: 10px
+
+    .investment
+        &__img
+            padding-right: 100px
+    .offer
+        &__wrap
+            padding-left: 5px
+        &__title
+            font-size: 17px
+        &__sub-wrap
+            
+            justify-content: space-evenly
+            grid-column-gap: 5px
+            padding-right: 5px
+        &__item
+            font-size: 14px   
+        &__default, &__discount
+            padding: 0
+        
+        &__discount::after
+            top: -13px
+            left: -10px   
+            width: 40px
+            height: 40px
+            opacity: 0.6 
+                  
+        &__title-sub            
+            font-size: 27px 
+    
+    .registry
+       
+        background-position: bottom
+        &__wrap
+            margin-bottom: 50px
+            gap: 70px
+        &__title
+            max-width: 400px           
+        &__block
+            height: 280px
+        &__btn     
+            width: 300px      
+            font-size: 18px
+            margin: 25px 5px
+            padding: 10px 5px
+        .btn__arrow
+            margin-left: 5px
+        
+    .modal .error
+        font-size: calc(14px + (20 - 18) * ((100vw - 320px)/ (533 - 320)))
+    .feed-form__checkbox label.agreement
+            font-size: calc( 12px + (16 - 12) * ((100vw - 320px) / (533 - 320) ))
+    .feed-form__option
+        font-size: calc(14px + (16 - 14) * ((100vw - 320px)/ (533 - 320)))
+
+@media only screen and (max-width : 420px)
+   
+    .feed-form__checkbox label
+        margin-left: 0
+   
+
+@media only screen and (max-width : 360px)
+    
+    .header  
+        &__title
+            margin-left: 48px
+        &__logo
+            order: 1
+            margin: 20px auto
+        &__logo img
+            max-width: 150px
+              
+        &__item, &__list-title
+            font-size: 14px        
+    .image 
+        margin: 40px auto 80px     
+    .app
+        &__wrap
+            grid-template-columns: repeat(auto-fill,210px)
+            
+    .overview__app     
+        &-title h3
+            font-size: 25px           
+        
+    .offer       
+        &__title
+            font-size: calc(14px + (16 - 14) * ((100vw - 320px)/ (360 - 320)))
+        &__title-sub
+            font-size: 26px
+        &__item
+            font-size: 13px
+    .registry
+        &__btn
+            font-size: 17px
+        &__block
+            margin-left: 10px
+            margin-right: 10px
+    .modal
+        padding: 20px
+@media only screen and (max-width : 320px)
+    .title
+        font-size: 23px
+    .header    
+      
+        &__description
+            font-size: 12px
+        &__list-title
+            font-size: 12px             
+
+    .image
+        margin: 49px auto 80px
+    .overview
+        &__app-title h3
+            font-size: 21px
+    .offer
+        &__wrap
+            margin: 0 5px
+        &__item .cost
+            display: none
+        
+    .registry
+        jstify-content: flex-end
+        &__title
+            font-size: 22px
+
+        &__wrap
+            gap: 20px
+        &__block
+            width: 100%
+            margin-bottom: 50px
+            padding: 5px
+        &__btn
+            font-size: 13.5px
+            width: 100%
+
+@media only screen and (max-width : 280px)
+    .header
+       
+        &__list-title
+            font-size: 12px
+       
+            
+            
+
+        
+    

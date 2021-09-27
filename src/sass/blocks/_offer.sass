@@ -1,0 +1,65 @@
+.offer 
+    margin-top: 100px
+    &__wrap        
+        max-width: 1280px       
+        border: 4px solid #F9D472
+        box-sizing: border-box
+        margin-left: 122px
+        margin-right: 40px
+        padding-left: 76px
+  
+    &__sub-wrap     
+        display: flex
+        flex-wrap: nowrap
+        grid-column-gap: 300px
+        padding-right: 20px
+    &__mob-table
+        display: none
+        font-size: 14px
+        font-weight: bold
+        text-transform: uppercase    
+    
+    &__mob-table span
+        text-decoration: line-through
+        color: #c8c842
+
+
+    &__title
+        text-align: left
+        margin: 40px 0
+        margin-bottom: 10px
+    &__list
+       padding-left: 0
+    &__item        
+        font-weight: bold
+        font-size: 36px
+        line-height: 49px
+        list-style: none
+        text-transform: uppercase
+  
+        
+   
+    &__discount
+        position: relative
+        padding: 0 33px
+
+    &__discount::after 
+        content: ""
+        position: absolute      
+        top: -14px
+        left: 19px      
+        width: 85px
+        height: 85px
+        background: url(../img/x.png)
+        background-repeat: no-repeat
+        background-position: center
+  
+    &__default
+        padding: 0 40px 0 0 
+    &__title-sub
+        font-size: 72px
+        line-height: 98px
+        text-transform: uppercase
+        color: #6849D4
+        margin-top: 20px
+    

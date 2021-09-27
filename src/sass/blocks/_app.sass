@@ -1,0 +1,38 @@
+.app  
+    &__wrap       
+        max-width: 1161px        
+        display: grid    
+        grid-template-columns: repeat(auto-fill, 320px)
+        gap: 40px
+        margin-top: 64px
+        margin-left: clamp(40px,24vw,394px)
+        padding: 10px
+        padding-bottom: 50px
+  
+    &__block-img              
+        max-width: 40px
+        max-height: 40px
+.fa-comments,.fa-shopping-basket,
+.fa-coins,.fa-chart-bar,.fa-chalkboard-teacher,.fa-money-check-alt
+      font-size: 25px
+      animation: 3s ease infinite 0s alternate svg-move
+
+.fa-comments
+    color: #673ab7  
+    
+.fa-shopping-basket
+    color: orange
+.fa-coins
+    color: gold   
+.fa-chart-bar
+    color: green
+.fa-chalkboard-teacher
+    color: #0f0f9e
+.fa-money-check-alt
+    color: #a06aa0
+
+@keyframes svg-move
+    0%, to    
+        transform: translateY(0)
+    50% 
+         transform: translateY(15%)
